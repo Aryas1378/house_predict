@@ -3,9 +3,10 @@
 # Introduction
 The successful execution of this project hinged on a sequence of pivotal actions, including data loading, feature selection, data partitioning, model construction, model evaluation, and data visualization. The integration of a MongoDB database played a vital role, enabling the storage, retrieval, and representation of data within the program's classes.
 
-
+<br>
 <p align="center">
   <img src="https://github.com/Aryas1378/house_predict/assets/55249095/48aca5ca-cd82-417b-81c8-3ce14483b30d" alt="Your Image">
+  <br>
   This is the text at the bottom.
 </p>
 
