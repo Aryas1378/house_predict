@@ -1,7 +1,7 @@
 # house_predict
 
 # Introduction
-
+The successful execution of this project hinged on a sequence of pivotal actions, including data loading, feature selection, data partitioning, model construction, model evaluation, and data visualization. The integration of a MongoDB database played a vital role, enabling the storage, retrieval, and representation of data within the program's classes.
 
 ![my_final_dataflow_project](https://github.com/Aryas1378/house_predict/assets/55249095/a44a4eef-76d2-4061-a83b-8e002d157ae5)
 ![Screenshot 2023-10-09 084219](https://github.com/Aryas1378/house_predict/assets/55249095/27c0a750-dda5-4821-bd68-c851c130bcf6)
