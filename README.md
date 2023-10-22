@@ -26,7 +26,16 @@ One the most important requirements in structural programming is Object Oriented
 <h3>Building The Programme</h3>
 
 In Python code programming, the next step is to proceed with the implementation of my classes, "Prediction" and "GUI.". Regarding to "GUI" class the following elements are included:
-^#  GUI Description
+<div>
+  <br>
+</div>
+#Main Window
+##The main window displays a background image of a house, enhancing the user interface. Users can interact with the GUI through this window.
+<div>
+  <br>
+</div>
+#Input Fields
+##The GUI provides input fields for three attributes: square footage of living space (sqft_living), square footage of space above (sqft_above), and square footage of the basement (sqft_basement). Users can input these attributes to make house price predictions.
 
 
 <p align="center">
