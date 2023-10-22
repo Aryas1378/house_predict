@@ -58,6 +58,10 @@ In Python code programming, the next step is to proceed with the implementation 
 <h4>User Authentication</h4>
 The GUI includes a login page with fields for username and password. However, the authentication functionality is not implemented in this report but can be extended to include user authentication.
 
+<div>
+  <br>
+</div>
+
 <p align="center">
   <img src="https://github.com/Aryas1378/house_predict/assets/55249095/27c0a750-dda5-4821-bd68-c851c130bcf6">
   <br>
