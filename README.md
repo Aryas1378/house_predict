@@ -25,6 +25,10 @@ One the most important requirements in structural programming is Object Oriented
 
 <h3>Building The Programme</h3>
 
+In Python code programming, the next step is to proceed with the implementation of my classes, "Prediction" and "GUI.". Regarding to "GUI" class the following elements are included:
+^#  GUI Description
+
+
 <p align="center">
   <img src="https://github.com/Aryas1378/house_predict/assets/55249095/48e53355-30b6-44ec-b7b3-36061b1e16ab">
   <br>
