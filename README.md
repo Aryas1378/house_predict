@@ -29,8 +29,8 @@ In Python code programming, the next step is to proceed with the implementation 
 <div>
   <br>
 </div>
-#Main Window
-##The main window displays a background image of a house, enhancing the user interface. Users can interact with the GUI through this window.
+#Main Window#
+##The main window displays a background image of a house, enhancing the user interface. Users can interact with the GUI through this window.##
 <div>
   <br>
 </div>
