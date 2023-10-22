@@ -40,9 +40,17 @@ In Python code programming, the next step is to proceed with the implementation 
 <div>
   <br>
 </div>
+
 <h4>Input Fields</h4>
 <p>The GUI provides input fields for three attributes: square footage of living space (sqft_living), square footage of space above (sqft_above), and square footage of the basement (sqft_basement). Users can input these attributes to make house price predictions.</p>
 
+<div>
+  <br>
+</div>
+<h4>Buttons</h4>
+<p><strong>Predict Price:</strong> This button triggers the house price prediction process based on user inputs.
+<strong>View Decision Tree:</strong> Users can visualize the decision tree model used for prediction.
+<strong>View Linear Regression:</strong> This button allows users to view the linear regression model used for prediction.</p>
 
 <p align="center">
   <img src="https://github.com/Aryas1378/house_predict/assets/55249095/27c0a750-dda5-4821-bd68-c851c130bcf6">
