@@ -19,6 +19,9 @@ Flowcharts are visual representations of processes or workflows. The above flow 
 </div>
 One the most important requirements in structural programming is Object Oriented Programming (OOP). Regarding to Ali, Shakur and Idris (2017) designing UMLs would be a reliable to show OOP. In UML diagrams the classes can show their relation using lines to connect them together (Figure 2). The cooperation between flow chart and UML can help to find out a general and correct overview about the construction of object oriented programming.
 
+<div>
+  <br>
+</div>
 
 <p align="center">
   <img src="https://github.com/Aryas1378/house_predict/assets/55249095/48e53355-30b6-44ec-b7b3-36061b1e16ab">
