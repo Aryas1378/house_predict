@@ -23,6 +23,12 @@ One the most important requirements in structural programming is Object Oriented
   <br>
 </div>
 
+<p align="center">
+  <img src="https://github.com/Aryas1378/house_predict/assets/55249095/48e53355-30b6-44ec-b7b3-36061b1e16ab">
+  <br>
+  Figure 2 - UML class Diagram
+</p>
+
 <h3>Building The Programme</h3>
 
 In Python code programming, the next step is to proceed with the implementation of my classes, "Prediction" and "GUI.". Regarding to "GUI" class the following elements are included:
@@ -37,12 +43,6 @@ In Python code programming, the next step is to proceed with the implementation 
 <h4>Input Fields</h4>
 <p>The GUI provides input fields for three attributes: square footage of living space (sqft_living), square footage of space above (sqft_above), and square footage of the basement (sqft_basement). Users can input these attributes to make house price predictions.</p>
 
-
-<p align="center">
-  <img src="https://github.com/Aryas1378/house_predict/assets/55249095/48e53355-30b6-44ec-b7b3-36061b1e16ab">
-  <br>
-  Figure 2 - UML class Diagram
-</p>
 
 <p align="center">
   <img src="https://github.com/Aryas1378/house_predict/assets/55249095/27c0a750-dda5-4821-bd68-c851c130bcf6">
