@@ -14,8 +14,10 @@ The successful execution of this project hinged on a sequence of pivotal actions
   <br>
 </p>
 Flowcharts are visual representations of processes or workflows. The above flow chart can make the sequence of the application for predicting house price more undrestandable. Additionally, a Unified Model Language (UML) can describe the whole structure of the source code and present them in at a glance.
-
-One the most important requirements in structural programming is Object Oriented Programming (OOP). Regarding to Ali, Shakur and Idris (2017) designing UMLs would be a reliable to show OOP. In UML diagrams the classes can show their relation using lines to connect them together (Figure 2). The cooperation between flow chart and UML can help to find out a general and correct overview about the construction of object oriented programming
+<div>
+  <br>
+</div>
+One the most important requirements in structural programming is Object Oriented Programming (OOP). Regarding to Ali, Shakur and Idris (2017) designing UMLs would be a reliable to show OOP. In UML diagrams the classes can show their relation using lines to connect them together (Figure 2). The cooperation between flow chart and UML can help to find out a general and correct overview about the construction of object oriented programming.
 
 
 <p align="center">
