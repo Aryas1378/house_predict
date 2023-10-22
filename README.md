@@ -48,9 +48,9 @@ In Python code programming, the next step is to proceed with the implementation 
   <br>
 </div>
 <h4>Buttons</h4>
-<p>There are 3 buttons in GUI framwork which do diffirent action. Firstlt,<strong>Predict Price,</strong> which is a button trigger can generate house price prediction process based on user inputs. Secondly, 
-<strong>View Decision Tree, </strong> that users can visualize the decision tree model used for prediction. Finally,
-<strong>View Linear Regression,</strong> is available to allows users to view the linear regression model used for prediction.</p>
+<p>There are 3 buttons in GUI framwork which do diffirent action. Firstlt, <strong>Predict Price,</strong> which is a button trigger can generate house price prediction process based on user inputs. Secondly, 
+<strong> View Decision Tree, </strong> that users can visualize the decision tree model used for prediction. Finally,
+<strong> View Linear Regression, </strong> is available to allows users to view the linear regression model used for prediction.</p>
 
 <p align="center">
   <img src="https://github.com/Aryas1378/house_predict/assets/55249095/27c0a750-dda5-4821-bd68-c851c130bcf6">
