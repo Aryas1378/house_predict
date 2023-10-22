@@ -29,7 +29,9 @@ One the most important requirements in structural programming is Object Oriented
   Figure 2 - UML class Diagram
 </p>
 
-<h3>Building The Programme</h3>
+<h2>Building The Programme</h2>
+
+<h3>GUI</h3>
 
 In Python code programming, the next step is to proceed with the implementation of my classes, "Prediction" and "GUI.". Regarding to "GUI" class the following elements are included:
 <div>
