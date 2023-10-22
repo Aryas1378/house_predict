@@ -29,13 +29,13 @@ In Python code programming, the next step is to proceed with the implementation 
 <div>
   <br>
 </div>
-#Main Window#
-##The main window displays a background image of a house, enhancing the user interface. Users can interact with the GUI through this window.##
+<h4>Main Window</h4>
+<p>The main window displays a background image of a house, enhancing the user interface. Users can interact with the GUI through this window.</p>
 <div>
   <br>
 </div>
-#Input Fields
-##The GUI provides input fields for three attributes: square footage of living space (sqft_living), square footage of space above (sqft_above), and square footage of the basement (sqft_basement). Users can input these attributes to make house price predictions.
+<h4>Input Fields</h4>
+<p>The GUI provides input fields for three attributes: square footage of living space (sqft_living), square footage of space above (sqft_above), and square footage of the basement (sqft_basement). Users can input these attributes to make house price predictions.</p>
 
 
 <p align="center">
