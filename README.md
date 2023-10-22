@@ -64,6 +64,40 @@ The GUI includes a login page with fields for username and password. However, th
   <br>
 </div>
 
+<h3>Predict</h3>
+The House Price Prediction class is developed using Python and leverages several libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn. It is aimed at training machine learning models to predict house prices based on specific attributes. The class contains the following functions:
+
+<div>
+  <br>
+</div>
+
+<h4>train</h4>
+This function is responsible for training a machine learning model using a provided dataset. It almost focuses on the data which has been retrieved from the MongoDB and then try to split the X and y axis which makes to ready to split data into 4 parts (X_train, X_test, y_train, y_test). Finally, the only two parameters X_train and y_train would return back which could be suitable parameters to train and fit our models.
+
+<div>
+  <br>
+</div>
+
+<h4>read data</h4>
+This method is responsible to make a connection to the MongoDB and get the houses collection from database which contains documents and it would convert to a DataFrame type which makes it compatible for our model to train.
+
+<div>
+  <br>
+</div>
+
+<h4>Predict DesicionTree</h4>
+By using this method, we can draw an image of our rpedicted decision tree using DecisionTreeRegression. The dataset include numerical data and we are not able to apply classification method on it, so DecisionTreeRegression is the best library to be used to generate the decision tree. Feature selection is a good way to increase the accuracy of the decision tree , as a result, four coloumns( sqft_living, sqft_lot, sqft_above, sqft_basement) were selected to train the X axis of the model. And the y axis goes to the "price" only. Spliting the data would happen in a way that the 80 percent of the whole data is for training and the rest of it belongs to testing. Finally, the method will plot the decision tree and evaluate the model by calculating mean square error(MSE).
+
+<div>
+  <br>
+</div>
+
+<h4>Predict LinearRegression</h4>
+Inside this method, like the Predict DecisionTree, feature selection has been happened tosplit X and y axis. To destribute price coloumn equally "log" has imported from numpy to improve the result. Then, an instance is made from LinearRegression to store in an variable and use it for plotting a scatter plot diagram.
+
+<h4>My Predict Price</h4>
+As the program aims to predict the price of a house then this is the method which handle it. There is an arguman for user dataframe which contains the information that the user is looking for then training the regression model would happen by chosing 3 coloumns sqft_living, sqft_above and sqft_basement. Finally, passing user dataframe to predict method can generate the price.
+
 <p align="center">
   <img src="https://github.com/Aryas1378/house_predict/assets/55249095/27c0a750-dda5-4821-bd68-c851c130bcf6">
   <br>
