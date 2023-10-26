@@ -112,10 +112,11 @@ As the program aims to predict the price of a house then this is the method whic
 
 #Running The Program
 
-![login-picture](https://github.com/Aryas1378/house_predict/assets/55249095/f360c7a9-47d3-47ee-902c-df52cb4d4136)
-<p align="centre"></p>
-
-
+<p align="centre">
+  <img src="https://github.com/Aryas1378/house_predict/assets/55249095/f360c7a9-47d3-47ee-902c-df52cb4d4136">
+  <br>
+  Figure 3 - Login
+</p>
 
 
 
