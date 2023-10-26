@@ -197,6 +197,10 @@ The input DataFrame df is modified by dropping the '_id' column. This step is us
 The dataset is further split into training and testing sets using the train_test_split function. 20% of the data is reserved for testing, and random_state=42 is used for reproducibility. A Decision Tree Regressor model is created with a maximum depth of 5. This means the decision tree can have a maximum depth of 5 levels.
 The model is trained (fitted) using the training data, i.e., X_train and y_train. It learns to predict house prices based on the selected features. Like the Linear, this model has another MSE which goes for evaluating the amount of error happends in drawing this tree. 
 
+<div>
+  <br>
+</div>
+
 # Reference
 
 [1]- Python Documentation: https://docs.python.org/
