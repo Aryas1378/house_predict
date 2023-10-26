@@ -29,22 +29,31 @@ One the most important requirements in structural programming is Object Oriented
   Figure 2 - UML class Diagram
 </p>
 
+
+
+<h2>The Database</h2>
+In this project MongoDB has been used as the database manager to load the csv file to train the model. Using MySQL database could be a bit chalenging for these types of projects as when goes to comparing MongoDB and MySQL, it's essential to consider the strengths of each database system. MongoDB, as a NoSQL database, offers unique advantages that set it apart from MySQL, a traditional relational database. To provide a comprehensive understanding, let's examine the strengths of MongoDB by referencing scientific papers and then outline how these strengths differentiate it from MySQL. Firstly, flexibility and Schema-less, "MongoDB's schema-less allows for the storage of unstructured or evolving data. It provides flexibility to developers to work with data without predefined schema constraints." (Alodib, M., et al. (2017))
+
+<div>
+  <br>
+</div>
+
 <h2>Building The Programme</h2>
 
 <h3>GUI</h3>
-
 In Python code programming, the next step is to proceed with the implementation of my classes, "Prediction" and "GUI.". Regarding to "GUI" class the following elements are included:
 <div>
   <br>
 </div>
 <h4>Main Window</h4>
-<p>The main window displays a background image of a house, enhancing the user interface. Users can interact with the GUI through this window.</p>
+<p>The main window displays a background image of a house, enhancing the user interface and is a instance of the "TK" class in python and can make it easier to have graphicial interface for users to interact with the GUI.</p>
+
 <div>
   <br>
 </div>
 
 <h4>Input Fields</h4>
-<p>The GUI provides input fields for three attributes: square footage of living space (sqft_living), square footage of space above (sqft_above), and square footage of the basement (sqft_basement). Users can input these attributes to make house price predictions.</p>
+<p>The GUI provides input fields for three attributes: square footage of living space (sqft_living), square footage of space above (sqft_above), and square footage of the basement (sqft_basement). Users can input these attributes to make house price predictions and these fields are the same columns which used to train the model to predict which will be discussed by the following.</p>
 
 <div>
   <br>
@@ -58,8 +67,7 @@ In Python code programming, the next step is to proceed with the implementation 
   <br>
 </div>
 <h4>User Authentication</h4>
-The GUI includes a login page with fields for username and password. However, the authentication functionality is not implemented in this report but can be extended to include user authentication.
-
+The GUI includes a login page with fields for username and password. at the first stage, "create_login_page" is going to make the base frame and then locate the frame in the screen using grid pre-built function to modify the x and y values to locate the elements inside the login form. Afterwards, labels for username and password are defined and finally a submition button for it and if the login is successfull, then the login window gets vanished. Fianlly, the "login" inside the scrpites is responsible for checking the credentials which are provided by the user to wether go throw the main GUI of the application desktop. If the crediantials will not match, a dialog message pops up and informs the user. 
 <div>
   <br>
 </div>
@@ -79,7 +87,7 @@ This function is responsible for training a machine learning model using a provi
 </div>
 
 <h4>read data</h4>
-This method is responsible to make a connection to the MongoDB and get the houses collection from database which contains documents and it would convert to a DataFrame type which makes it compatible for our model to train.
+This method is responsible to make a connection to the MongoDB and get the houses collection from database which contains documents and it would convert to a DataFrame type which makes it compatible for our model to train.using this method can help a lot due to OOP techniques, when some kind script is being used continuesly then it should be converted to a method that is just implemented for once and then could be called anywhere anytime within the other methods in the application.
 
 <div>
   <br>
