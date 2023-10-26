@@ -176,6 +176,18 @@ It sets the title of the plot as "Linear Regression Prediction" and includes the
   <br>
 </div>
 
+
+<p align="centre">
+  <img src="https://github.com/Aryas1378/house_predict/assets/55249095/519bd9df-e130-479e-8044-f5d89fe01eb5">
+  <br>
+  Figure 7 - Decision Tree Plot
+</p>
+
+
+<div>
+  <br>
+</div>
+
 <h3>Decision Tree plot</h3>
 
 The method begins by defining a list of feature columns named feature_columns. These columns represent the features or input variables used for predicting house prices. In this case, the selected features include 'sqft_living,' 'sqft_lot,' 'sqft_above,' and 'sqft_basement.'
