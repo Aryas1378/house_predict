@@ -159,7 +159,12 @@ Upon providing the required input, a new window will appear, displaying the pred
 <p align="centre">
   <img src="https://github.com/Aryas1378/house_predict/assets/55249095/27c0a750-dda5-4821-bd68-c851c130bcf6">
   <br>
-  Figure X - Scatter Plot
+  Figure 6 - Scatter Plot
 </p>
 
+<h3>Linear Regression</h3>
 
+It defines a list of feature columns named feature_columns. These columns represent features or variables that are used to predict the target variable, which is 'price' in this case.
+The method takes a DataFrame df as input and drops the '_id' column (likely an identifier) to prepare the data for modeling. The feature data X and the target variable y are selected from the DataFrame.
+It then splits the data into training and testing sets using train_test_split. The training set (X_train, y_train) will be used to train the linear regression model, and the testing set (X_test, y_test) will be used to evaluate the model's performance. A Linear Regression model is created and fitted to the training data. This means the model learns the relationship between the features and the target variable 'price' using the training data. The model makes predictions on the test data, resulting in y_predicted, which contains the predicted prices based on the features. The code calculates the Mean Squared Error (MSE), a measure of the model's prediction accuracy, by comparing the predicted values (y_predicted) to the actual target value ('y_test'). The code creates a scatter plot with the actual prices (on the x-axis) and the predicted prices (on the y-axis), both transformed to a logarithmic scale (np.log1p). This helps visualize the performance of the linear regression model.
+It sets the title of the plot as "Linear Regression Prediction" and includes the MSE in the plot as well.
