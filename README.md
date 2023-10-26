@@ -119,6 +119,42 @@ As the program aims to predict the price of a house then this is the method whic
   <br>
   Figure 3 - Login
 </p>
+When you execute the provided source code, it will launch a login frame, prompting you to enter your username and password. If an incorrect username or password is entered, the application will respond by displaying an error message, as illustrated in Figure 4.
+
+The responsibility for verifying the correctness of the entered username and password is managed by the 'Prediction' class. This class determines whether the provided username and password match the predefined values, such as 'admin'. In other words, it checks if the entered credentials are equal to the predefined administrative login credentials.
+
+
+<p align="centre">
+  <div style="text-align: center;">
+    <img src="https://github.com/Aryas1378/house_predict/assets/55249095/de1b02e5-f15a-46e3-acce-b056a5dadd4a">
+  </div>
+  <br>
+  Figure 4 - Login Error Message
+</p>
+
+<div>
+  <br>
+</div>
+
+<p align="centre">
+  <div style="text-align: center;">
+    <img src="https://github.com/Aryas1378/house_predict/assets/55249095/856f4a64-730d-419a-b6d3-cd1dad7abedf">
+  </div>
+  <br>
+  Figure 5 - Main Menu GUI
+</p>
+
+After accessing the main menu in the graphical user interface (GUI), you will encounter three input fields. These fields are designed for you to provide values for 'sqft_living,' 'sqft_above,' and 'sqft_basement.' These three input parameters serve as crucial factors for generating a predicted house price utilizing the DecisionTreeRegressor model.
+
+The choice of DecisionTreeRegressor as the predictive model is appropriate because the target variable, which in this case is 'price,' is a continuous and numeric variable. The DecisionTreeRegressor is well-suited for regression tasks, allowing us to estimate prices accurately.
+
+It's important to note that employing a DecisionTreeClassifier model for this prediction task would not be appropriate, as DecisionTreeClassifiers are designed for categorical and nominal target classes. Given that the 'price' is a continuous numeric value, using a DecisionTreeClassifier is discouraged for this particular application.
+
+Upon providing the required input, a new window will appear, displaying the predicted price for the given property. This predicted price is generated using the DecisionTreeRegressor model, which takes into account the provided values for 'sqft_living,' 'sqft_above,' and 'sqft_basement.' The predicted price offers valuable insight into the estimated worth of the property based on these input features.
+
+<div>
+  <br>
+</div>
 
 <p align="centre">
   <img src="https://github.com/Aryas1378/house_predict/assets/55249095/27c0a750-dda5-4821-bd68-c851c130bcf6">
