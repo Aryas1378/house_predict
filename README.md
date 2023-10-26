@@ -104,7 +104,15 @@ By using this method, we can draw an image of our rpedicted decision tree using 
 Inside this method, like the Predict DecisionTree, feature selection has been happened tosplit X and y axis. To destribute price coloumn equally "log" has imported from numpy to improve the result. Then, an instance is made from LinearRegression to store in an variable and use it for plotting a scatter plot diagram.
 
 <h4>My Predict Price</h4>
-As the program aims to predict the price of a house then this is the method which handle it. There is an arguman for user dataframe which contains the information that the user is looking for then training the regression model would happen by chosing 3 coloumns sqft_living, sqft_above and sqft_basement. Finally, passing user dataframe to predict method can generate the price.
+As the program aims to predict the price of a house then this is the method which handle it. There is an arguman for user dataframe which contains the information that the user is looking for then training the regression model would happen by chosing 3 coloumns sqft_living, sqft_above and sqft_basement. Finally, passing user dataframe to predict method can generate the price. Dataset contains nominal values for its columns so it makes it required to have only correlated columns to have a better result instead of overfitting the model by using all the columnsand train the model according them.
+
+<div>
+  <br>
+</div>
+
+#Running The Program
+
+
 
 <p align="center">
   <img src="https://github.com/Aryas1378/house_predict/assets/55249095/27c0a750-dda5-4821-bd68-c851c130bcf6">
@@ -113,5 +121,3 @@ As the program aims to predict the price of a house then this is the method whic
 </p>
 
 
-![Screenshot 2023-10-09 084155](https://github.com/Aryas1378/house_predict/assets/55249095/daa18ba8-1c64-4594-8de8-29b78218cb2e)
-![Screenshot 2023-10-09 084104](https://github.com/Aryas1378/house_predict/assets/55249095/c5a8f2cc-6a81-4c79-aae7-7e05f37b7b0d)
