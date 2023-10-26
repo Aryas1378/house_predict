@@ -2,6 +2,7 @@
 <br>
 <h3>Introduction</h3>
 The successful execution of this project hinged on a sequence of pivotal actions, including data loading, feature selection, data partitioning, model construction, model evaluation, and data visualization. The integration of a MongoDB database played a vital role, enabling the storage, retrieval, and representation of data within the program's classes.
+Importing python libraries are playing a crucial role in this application and this approach follows the Python community's collective wisdom and the official Python documentation [1], ensuring code quality and reliability.
 <div>
   <br>
 </div>
@@ -32,7 +33,7 @@ One the most important requirements in structural programming is Object Oriented
 
 
 <h2>The Database</h2>
-In this project MongoDB has been used as the database manager to load the csv file to train the model. Using MySQL database could be a bit chalenging for these types of projects as when goes to comparing MongoDB and MySQL, it's essential to consider the strengths of each database system. MongoDB, as a NoSQL database, offers unique advantages that set it apart from MySQL, a traditional relational database. To provide a comprehensive understanding, let's examine the strengths of MongoDB by referencing scientific papers and then outline how these strengths differentiate it from MySQL. Firstly, flexibility and Schema-less, "MongoDB's schema-less allows for the storage of unstructured or evolving data. It provides flexibility to developers to work with data without predefined schema constraints." (Alodib, M., et al. (2017))
+In this project MongoDB has been used as the database manager to load the csv file which is loaded from kaggle [2] to train the model. Using MySQL database could be a bit chalenging for these types of projects as when goes to comparing MongoDB and MySQL, it's essential to consider the strengths of each database system. MongoDB, as a NoSQL database, offers unique advantages that set it apart from MySQL, a traditional relational database. To provide a comprehensive understanding, let's examine the strengths of MongoDB by referencing scientific papers and then outline how these strengths differentiate it from MySQL. Firstly, flexibility and Schema-less, "MongoDB's schema-less allows for the storage of unstructured or evolving data. It provides flexibility to developers to work with data without predefined schema constraints." (Alodib, M., et al. (2017))
 
 <div>
   <br>
@@ -195,4 +196,13 @@ The method begins by defining a list of feature columns named feature_columns. T
 The input DataFrame df is modified by dropping the '_id' column. This step is usually taken to prepare the data for modeling. The data is divided into two sets: the feature data X and the target variable y. The target variable is 'price.'
 The dataset is further split into training and testing sets using the train_test_split function. 20% of the data is reserved for testing, and random_state=42 is used for reproducibility. A Decision Tree Regressor model is created with a maximum depth of 5. This means the decision tree can have a maximum depth of 5 levels.
 The model is trained (fitted) using the training data, i.e., X_train and y_train. It learns to predict house prices based on the selected features. Like the Linear, this model has another MSE which goes for evaluating the amount of error happends in drawing this tree. 
+
+# Reference
+
+[1]- Python Documentation: https://docs.python.org/
+
+[2]- Shree1992. House price prediction. Kaggle. https://www.kaggle.com/datasets/shree1992/housedata
+
+Ali, Noraida Haji, Zarina Shukur, and Sufian Idris (2007). “A design of an assess-ment system for UML class diagram”. In:2007 International Conference onComputational Science and its Applications (ICCSA 2007). pp.530-550.
+
 
