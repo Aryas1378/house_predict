@@ -78,20 +78,6 @@ The House Price Prediction class is developed using Python and leverages several
   <br>
 </div>
 
-<h4>train</h4>
-This function is responsible for training a machine learning model using a provided dataset. It almost focuses on the data which has been retrieved from the MongoDB and then try to split the X and y axis which makes to ready to split data into 4 parts (X_train, X_test, y_train, y_test). Finally, the only two parameters X_train and y_train would return back which could be suitable parameters to train and fit our models.
-
-<div>
-  <br>
-</div>
-
-<h4>read data</h4>
-This method is responsible to make a connection to the MongoDB and get the houses collection from database which contains documents and it would convert to a DataFrame type which makes it compatible for our model to train.using this method can help a lot due to OOP techniques, when some kind script is being used continuesly then it should be converted to a method that is just implemented for once and then could be called anywhere anytime within the other methods in the application.
-
-<div>
-  <br>
-</div>
-
 <h4>Predict DesicionTree</h4>
 By using this method, we can draw an image of our rpedicted decision tree using DecisionTreeRegression. The dataset include numerical data and we are not able to apply classification method on it, so DecisionTreeRegression is the best library to be used to generate the decision tree. Feature selection is a good way to increase the accuracy of the decision tree , as a result, four coloumns( sqft_living, sqft_lot, sqft_above, sqft_basement) were selected to train the X axis of the model. And the y axis goes to the "price" only. Spliting the data would happen in a way that the 80 percent of the whole data is for training and the rest of it belongs to testing. Finally, the method will plot the decision tree and evaluate the model by calculating mean square error(MSE).
 
