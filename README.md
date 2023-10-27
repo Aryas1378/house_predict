@@ -185,7 +185,7 @@ It sets the title of the plot as "Linear Regression Prediction" and includes the
 <h3>Decision Tree plot</h3>
 
 The input DataFrame df is modified by dropping the '_id' column. This step is usually taken to prepare the data for modeling. The data is divided into two sets: the feature data X and the target variable y. The target variable is 'price.'
-The dataset is further split into training and testing sets using the train_test_split function. 20% of the data is reserved for testing, and random_state=42 is used for reproducibility. A Decision Tree Regressor model is created with a maximum depth of 5. This means the decision tree can have a maximum depth of 5 levels.
+The dataset is further split into training and testing sets using the train_test_split function. 20% of the data is reserved for testing, and random_state=42 is used for reproducibility.
 The model is trained (fitted) using the training data, i.e., X_train and y_train. It learns to predict house prices based on the selected features. Like the Linear, this model has another MSE which goes for evaluating the amount of error happends in drawing this tree. 
 
 <div>
