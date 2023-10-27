@@ -151,8 +151,6 @@ The choice of DecisionTreeRegressor as the predictive model is appropriate becau
 
 It's important to note that employing a DecisionTreeClassifier model for this prediction task would not be appropriate, as DecisionTreeClassifiers are designed for categorical and nominal target classes. Given that the 'price' is a continuous numeric value, using a DecisionTreeClassifier is discouraged for this particular application.
 
-Upon providing the required input, a new window will appear, displaying the predicted price for the given property. This predicted price is generated using the DecisionTreeRegressor model, which takes into account the provided values for 'sqft_living,' 'sqft_above,' and 'sqft_basement.' The predicted price offers valuable insight into the estimated worth of the property based on these input features.
-
 <div>
   <br>
 </div>
