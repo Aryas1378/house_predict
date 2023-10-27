@@ -30,10 +30,8 @@ One the most important requirements in structural programming is Object Oriented
   Figure 2 - UML class Diagram
 </p>
 
-
-
 <h2>The Database</h2>
-In this project MongoDB has been used as the database manager to load the csv file which is loaded from kaggle [2] to train the model. Using MySQL database could be a bit chalenging for these types of projects as when goes to comparing MongoDB and MySQL, it's essential to consider the strengths of each database system. MongoDB, as a NoSQL database, offers unique advantages that set it apart from MySQL, a traditional relational database. To provide a comprehensive understanding, let's examine the strengths of MongoDB by referencing scientific papers and then outline how these strengths differentiate it from MySQL. Firstly, flexibility and Schema-less, "MongoDB's schema-less allows for the storage of unstructured or evolving data. It provides flexibility to developers to work with data without predefined schema constraints." (Alodib, M., et al. (2017))
+In this project MongoDB has been used as the database manager to load the csv file which is loaded from kaggle [2] to train the model.MongoDB, as a NoSQL database, offers unique advantages that set it apart from MySQL, a traditional relational database. To provide a comprehensive understanding, let's examine the strengths of MongoDB by referencing scientific papers and then outline how these strengths differentiate it from MySQL. "MongoDB's schema-less allows for the storage of unstructured or evolving data. It provides flexibility to developers to work with data without predefined schema constraints." (Alodib, M., et al. (2017))
 
 <div>
   <br>
@@ -68,7 +66,7 @@ In Python code programming, the next step is to proceed with the implementation 
   <br>
 </div>
 <h4>User Authentication</h4>
-The GUI includes a login page with fields for username and password. at the first stage, "create_login_page" is going to make the base frame and then locate the frame in the screen using grid pre-built function to modify the x and y values to locate the elements inside the login form. Afterwards, labels for username and password are defined and finally a submition button for it and if the login is successfull, then the login window gets vanished. Fianlly, the "login" inside the scrpites is responsible for checking the credentials which are provided by the user to wether go throw the main GUI of the application desktop. If the crediantials will not match, a dialog message pops up and informs the user. 
+The "login" inside the scrpites is responsible for checking the credentials which are provided by the user to wether go throw the main GUI of the application desktop. If the crediantials will not match, a dialog message pops up and informs the user. 
 <div>
   <br>
 </div>
