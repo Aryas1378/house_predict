@@ -163,9 +163,6 @@ It's important to note that employing a DecisionTreeClassifier model for this pr
 
 <h3>Linear Regression</h3>
 
-It defines a list of feature columns named feature_columns. These columns represent features or variables that are used to predict the target variable, which is 'price' in this case.
-The method takes a DataFrame df as input and drops the '_id' column (likely an identifier) to prepare the data for modeling. The feature data X and the target variable y are selected from the DataFrame.
-
 The model makes predictions on the test data, resulting in y_predicted, which contains the predicted prices based on the features. The code calculates the Mean Squared Error (MSE), a measure of the model's prediction accuracy, by comparing the predicted values (y_predicted) to the actual target value ('y_test'). The code creates a scatter plot with the actual prices (on the x-axis) and the predicted prices (on the y-axis), both transformed to a logarithmic scale (np.log1p). This helps visualize the performance of the linear regression model.
 It sets the title of the plot as "Linear Regression Prediction" and includes the MSE in the plot as well.
 
@@ -187,8 +184,6 @@ It sets the title of the plot as "Linear Regression Prediction" and includes the
 
 <h3>Decision Tree plot</h3>
 
-The method begins by defining a list of feature columns named feature_columns. These columns represent the features or input variables used for predicting house prices. In this case, the selected features include 'sqft_living,' 'sqft_lot,' 'sqft_above,' and 'sqft_basement.'
-
 The input DataFrame df is modified by dropping the '_id' column. This step is usually taken to prepare the data for modeling. The data is divided into two sets: the feature data X and the target variable y. The target variable is 'price.'
 The dataset is further split into training and testing sets using the train_test_split function. 20% of the data is reserved for testing, and random_state=42 is used for reproducibility. A Decision Tree Regressor model is created with a maximum depth of 5. This means the decision tree can have a maximum depth of 5 levels.
 The model is trained (fitted) using the training data, i.e., X_train and y_train. It learns to predict house prices based on the selected features. Like the Linear, this model has another MSE which goes for evaluating the amount of error happends in drawing this tree. 
@@ -196,6 +191,9 @@ The model is trained (fitted) using the training data, i.e., X_train and y_train
 <div>
   <br>
 </div>
+
+# Concluding Points
+In conclusion, this project represents a comprehensive approach to house price prediction, incorporating critical elements such as data processing, model construction, and user interaction through a graphical user interface. The integration of a MongoDB database, guided by strengths outlined in prior research [1], has proved instrumental in handling unstructured data efficiently. The synergy of flowcharts and Unified Modeling Language (UML) diagrams provides a holistic view of the Object-Oriented Programming (OOP) structure, ensuring code quality.
 
 # Reference
 
